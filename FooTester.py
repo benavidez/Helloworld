@@ -12,7 +12,7 @@ class FooTester(unittest.TestCase):
     def testFoo(self):
         res = Foo.foo(18)
         self.assertEqual(res, 'fizz', res)
-        res = Foo.foo(15)
+        res = Foo.foo(10)
         self.assertEqual(res, 'buzz', res)
         res = Foo.foo(555)        
         self.assertEqual(res, 'fizzbuzz', res)

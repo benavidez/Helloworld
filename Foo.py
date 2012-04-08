@@ -5,4 +5,11 @@ Created on Apr 8, 2012
 '''
 
 def foo(n):
-    pass
+    ret = ''
+    if n != 0:
+        if n % 3 == 0:
+            ret += 'fizz'
+        if n % 5 == 0:
+            ret += 'buzz'
+    return ret
+            
